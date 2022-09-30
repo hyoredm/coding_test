@@ -5,7 +5,7 @@ let star = '';
 
 for (let i = 0; i < A; i++) {
     for (let j = 0; j < A - i - 1; j++) {
-        star = ' ';
+        star += ' ';
     }
 
     for (let k = 0; k <= i; k++) {
